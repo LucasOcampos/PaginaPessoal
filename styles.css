@@ -2,3 +2,38 @@
     width: 15%;
     height: 15%;
 }
+
+#menu {
+    margin-right: 7.5%;
+    text-align: right;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.nav-button {
+    color: #ffffff;
+    background: linear-gradient(
+        to top,
+        white 5%,
+        black 15%,
+        black 85%,
+        white 95%
+    );
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+}
+
+.nav-button:hover {
+    border: none;
+    background: #000000;
+    padding: 20px;
+    color: #ffffff;
+}
